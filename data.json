@@ -1,0 +1,35 @@
+{
+    "id": "https://github.com/EdinburghCityScope/sg-school-pupil-census",
+    "title": "School Pupil Census",
+    "description": "Information from the School Pupil Census for Edinburgh",
+    "landingPage": "https://github.com/EdinburghCityScope/sg-school-pupil-census",
+    "issued": "2016-10-21",
+    "modified": "2016-11-23",
+    "language": [
+        "en"
+    ],
+    "publisher": {
+        "name": "Scottish Government",
+        "mbox": "statistics.enquiries@scotland.gsi.gov.uk"
+    },
+    "spatial": "http://www.geonames.org/maps/google_55.95_-3.193.html",
+    "keyword": [
+        "education"
+    ],
+    "distribution": [
+        {
+            "title": "Edinburgh Data Zones 2001",
+            "description": "Data Zones 2001 boundaries in GeoJSON.",
+            "mediaType": "application/vnd.geo+json",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/sg-school-pupil-census/master/data/data-zones-2001.json",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "School Pupil Census data for Edinburgh",
+            "description": "Information from the School Pupil Census by Edinburgh Data Zones 2001 as published by Scottish Government. Data taken from http://statistics.gov.scot/data/school-pupil-census",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/sg-school-pupil-census/master/data/school-pupil-census.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        }
+    ]
+}
